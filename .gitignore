@@ -1,0 +1,26 @@
+# ===== 数据集（体积大、需单独准备，不纳入版本管理）=====
+images/
+
+# ===== 模型权重（本仓库选择随仓库提交；如改用 Git LFS 或 Releases，可在此取消注释）=====
+# checkpoints/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+
+# ===== 临时日志与中间文件 =====
+*.log
+_*.py
+_*.tmp
